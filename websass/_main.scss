@@ -1,0 +1,50 @@
+main {
+    padding: 20px 0;
+   border-radius: 20px;
+    margin: 30px;
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.1); 
+    background-color: $color-secundario;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+p{
+    color: $color-texto;
+    font-size: medium;
+    
+
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.1); 
+    
+}
+
+button{
+    background-color: $color-fondo;
+    color: $color-texto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    &:hover {
+      background-color: $color-terciario; 
+    }
+width: 150px;
+height: 40px;
+
+}
+
+
+@debug"body";

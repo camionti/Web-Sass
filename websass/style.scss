@@ -1,0 +1,44 @@
+
+@import 'variables';
+@import 'header';
+@import'main';
+@import'footer';
+body {
+    font-family: Arial, sans-serif;
+    background-color: $color-fondo;
+    color: $color-texto;
+    margin: 0;
+    padding: 0;
+    animation-name: bodyA;
+    animation-duration: 1s ;
+    animation-iteration-count: infinite;
+}
+
+@debug"body";
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+   
+}
+
+@keyframes bodyA
+{
+
+
+ from  {
+background-color: $color-primario;
+  }
+
+  
+  to {
+background-color: $color-terciario;
+  }
+
+}
+
+
+
+
+
